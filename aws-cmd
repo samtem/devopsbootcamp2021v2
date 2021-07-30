@@ -1,1 +1,4 @@
-we provisioned aws cli... using aws configure command
+aws ec2 run-instances \
+       --image-id ami-0c2b8ca1dad447f8a \
+       --instance-type t2.micro \
+       --key-name june2021
